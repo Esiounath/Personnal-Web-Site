@@ -24,7 +24,7 @@ p{
 	font-size: 1.2em;
 }
 li{
-	margin-left: 50%;
+	text-align:center;
 }
 ul{
 	animation: fade 4s;
