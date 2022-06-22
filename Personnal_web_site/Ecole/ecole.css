@@ -3,8 +3,6 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	max-height:100%;
-	max-width:100%;
 }
 .logo{
 	height: 15em;
@@ -32,7 +30,10 @@ li{
 }
 ul{
 	animation: fade 4s;
-	margin-left:35%;
+	position:relative;
+	left:15%;
+	max-height:auto;
+	max-width:50%;
 	list-style: none;
 }
 span{
