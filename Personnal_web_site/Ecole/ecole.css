@@ -32,6 +32,7 @@ li{
 }
 ul{
 	animation: fade 4s;
+	margin-left:35%;
 	list-style: none;
 }
 span{
