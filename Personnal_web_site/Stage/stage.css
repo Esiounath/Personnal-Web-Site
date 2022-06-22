@@ -4,7 +4,7 @@ div{
 	border-style: none;
 	border-radius:30px;
 	position:relative;
-	left:40%;
+	left:25%;
 	z-index: auto;
 	font-family: bold;
 	display: inline-block;
@@ -26,7 +26,7 @@ button{
 	animation: animation 12s;
 }
 p{
-	margin-left: 20%;
+	margin-left: 10%;
 	text-align:center;
 	color: white;
 	font-size: 1.5em;
