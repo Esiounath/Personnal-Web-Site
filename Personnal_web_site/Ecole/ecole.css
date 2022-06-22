@@ -3,6 +3,8 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	max-height:70%;
+	max-width:50%;
 }
 .logo{
 	height: 15em;
