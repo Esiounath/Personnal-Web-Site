@@ -9,7 +9,7 @@ body{
 	width: 15em;
 	border-radius: 70% 70%;
 	position:relative;
-	left:45%;
+	left:25%;
 	transition: 3s all;
 	object-fit: cover;
 }
@@ -26,11 +26,10 @@ p{
 }
 li{
 	position:relative;
-	left:40%;
+	left:25%;
 }
 ul{
 	animation: fade 4s;
-	margin-left:40%;
 	list-style: none;
 }
 span{
