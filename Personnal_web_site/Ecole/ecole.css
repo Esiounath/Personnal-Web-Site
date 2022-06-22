@@ -24,10 +24,11 @@ p{
 	font-size: 1.2em;
 }
 li{
-	text-align:center;
+	margin-left:40%;
 }
 ul{
 	animation: fade 4s;
+	margin-left:40%;
 	list-style: none;
 }
 span{
