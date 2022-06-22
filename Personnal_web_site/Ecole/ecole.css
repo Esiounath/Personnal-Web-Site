@@ -9,7 +9,7 @@ body{
 	width: 15em;
 	border-radius: 70% 70%;
 	position:relative;
-	left:25%;
+	left:15%;
 	transition: 3s all;
 	object-fit: cover;
 }
@@ -26,7 +26,7 @@ p{
 }
 li{
 	position:relative;
-	left:25%;
+	left:15%;
 }
 ul{
 	animation: fade 4s;
