@@ -25,13 +25,10 @@ p{
 	font-size: 1.2em;
 }
 li{
-	position:relative;
-	left:15%;
+	margin-left:10%;
 }
 ul{
 	animation: fade 4s;
-	position:relative;
-	left:15%;
 	max-height:auto;
 	max-width:50%;
 	list-style: none;
