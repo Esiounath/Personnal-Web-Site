@@ -3,7 +3,8 @@ div{
 	width: 12em;
 	border-style: none;
 	border-radius:30px;
-	margin-left:40%;
+	position:relative;
+	left:40%;
 	z-index: auto;
 	font-family: bold;
 	display: inline-block;
