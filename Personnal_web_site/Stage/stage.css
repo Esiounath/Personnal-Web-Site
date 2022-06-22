@@ -2,7 +2,8 @@ div{
 	height: 12em;
 	width: 12em;
 	border-style: none;
-	text-align: center;
+	border-radius:30px;
+	margin-left:40%;
 	z-index: auto;
 	font-family: bold;
 	display: inline-block;
@@ -25,6 +26,7 @@ button{
 }
 p{
 	margin-left: 20%;
+	text-align:center;
 	color: white;
 	font-size: 1.5em;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
