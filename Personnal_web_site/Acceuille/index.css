@@ -30,10 +30,10 @@
         animation: rotate 5s linear infinite;
     }
     .logo::after{
-        content: "Animation";
+        content: "";
         width: 11.5em;
         height: 11.5em;
-        background-image:url('https://images.unsplash.com/photo-1486525546686-3cd5484691f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1131&q=80');
+        background-image:url('../Photos/20220428_151604.jpg');
         position: absolute;
       background-size:cover;
       background-repeat:no-repeat;
