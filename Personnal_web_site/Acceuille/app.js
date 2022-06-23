@@ -70,12 +70,12 @@ const items = document.querySelectorAll('img');
 				clearInterval(slide);
 			}
 		}
-				  document.getElementsByTagName("svg")[0].addEventListener('click',()=>{
+				  /*document.getElementsByTagName("svg")[0].addEventListener('click',()=>{
 		  		clearInterval(slide);
                        slideSuivant();
 
-			});
-			document.getElementsByTagName('svg')[1].addEventListener('click',()=>{
+			});*/
+			/*document.getElementsByTagName('svg')[1].addEventListener('click',()=>{
 				clearInterval(slide);
 
 			});
@@ -87,7 +87,7 @@ const items = document.querySelectorAll('img');
         				clearInterval(slide);
                         slidePrecedent();
 
-			});
+			});*/
         document.addEventListener('keydown',keyPress);
         var speed = 80
         var textPosition = 0 
@@ -118,7 +118,7 @@ const items = document.querySelectorAll('img');
         		document.getElementsByTagName('img')[1].style.opacity = "1";
         	}
         });
-        function resize(){
+        /*function resize(){
         	if(window.innerWidth < 500 && window.innerHeight < 950){
         		if(document.getElementsByTagName('svg').length == 4){
         			document.getElementsByTagName('svg')[0].remove();
@@ -127,10 +127,10 @@ const items = document.querySelectorAll('img');
         			document.getElementsByTagName('svg')[0].remove();
         		}
         		}
-    }
+    }*/
     var color = ["red","yellow","blue","green","purple","pink","grey"];
     colorRand = Math.floor(Math.random * color.length);
    document.getElementsByTagName('li')[1].addEventListener('click',()=>{
    	document.getElementsByTagName('button')[1].style.color = color[colorRand];
    })
-    window.addEventListener('resize',resize);
+    //window.addEventListener('resize',resize);
