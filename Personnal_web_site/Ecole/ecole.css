@@ -24,12 +24,9 @@ p{
 	animation: fade 2s;
 	font-size: 1.2em;
 }
-li{
-	position:relative;
-	left:15%;
-}
 ul{
 	animation: fade 4s;
+	margin-left:20%;
 	list-style: none;
 }
 span{
