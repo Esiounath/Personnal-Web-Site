@@ -10,7 +10,7 @@ body{
 	border-radius: 70% 70%;
 	position:relative;
 	margin:0.3em;
-	left: 18%;
+	left: 35%;
 	transition: 3s all;
 	object-fit: cover;
 }
