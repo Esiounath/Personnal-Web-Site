@@ -8,8 +8,7 @@ body{
 	height: 15em;
 	width: 15em;
 	border-radius: 70% 70%;
-	position:relative;
-	left:20%;
+	margin-left: 18%;
 	transition: 3s all;
 	object-fit: cover;
 }
@@ -67,7 +66,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 10px blue, 0 0 20px
 	height: 15em;
 	width: 15em;
 	border-radius: 70% 70%;
-	margin-left: 20% ;
+	margin-left: 18%;
 	transition: 3s all;
 	object-fit: cover;
 }
