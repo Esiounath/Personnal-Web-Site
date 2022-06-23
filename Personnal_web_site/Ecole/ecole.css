@@ -51,7 +51,7 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 10px blue, 0 0 20px
 }
 @keyframes fade {
 	from{
-		transform: translateX(50%);
+		transform: translateX(80%);
 	}
 	to{
 		transform: translateX(0%);
