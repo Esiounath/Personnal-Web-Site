@@ -31,8 +31,8 @@
     }
     .logo::after{
         content: "";
-        width: 11.5em;
-        height: 11.5em;
+        width: 12em;
+        height: 12em;
         background-image:url('../Photos/20220428_151604.jpg');
         position: absolute;
       background-size:cover;
