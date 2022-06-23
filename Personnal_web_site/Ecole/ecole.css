@@ -25,12 +25,11 @@ p{
 	font-size: 1.2em;
 }
 li{
-	margin-left:10%;
+	position:relative;
+	left:15%;
 }
 ul{
 	animation: fade 4s;
-	max-height:auto;
-	max-width:50%;
 	list-style: none;
 }
 span{
