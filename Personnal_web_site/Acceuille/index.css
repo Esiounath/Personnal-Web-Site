@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 
 }
-    logo {
+    .logo {
 	object-fit: cover;
 	margin-left: 45% ;
         width: 15em;
@@ -18,7 +18,7 @@
         justify-content: center;
         align-items: center;
     }
-    /*.logo::before{
+    .logo::before{
         content: "";
         background-image: conic-gradient(
             orange 20deg,
@@ -54,7 +54,7 @@
         100%{
             transform: rotate(360deg);
         }
-    }*/
+    }
 .container img{
 	max-width: 100%;
 }
