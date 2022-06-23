@@ -8,7 +8,9 @@ body{
 	height: 15em;
 	width: 15em;
 	border-radius: 70% 70%;
-	margin-left: 18%;
+	position:relative;
+	margin:0.3em;
+	left: 18%;
 	transition: 3s all;
 	object-fit: cover;
 }
