@@ -293,6 +293,43 @@ body{
 	transition: 3s all;
 	object-fit: cover;
 }
+    .logo::before{
+        content: "";
+        background-image: conic-gradient(
+            purple 20deg,
+            transparent 120deg
+        );
+        width: 80%;
+        height: 150%;
+        position: absolute;
+        animation: rotate 5s linear infinite;
+    }
+    .logo::after{
+        content: "";
+        width: 11.5em;
+        height: 11.5em;
+        background-image:url('../Photos/20220428_151604.jpg');
+        position: absolute;
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position:center;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ff0052;
+        font-size: larger;
+        letter-spacing: 5px;
+        box-shadow: inset 20px 20px 20px #0000008c;
+    }
+    @keyframes rotate {
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(-360deg);
+        }
+    }
 .container img{
 	max-width: 100%;
 }
@@ -439,7 +476,7 @@ ul{
 			width: 100%;
 			z-index:-1;
 			transition: .2s;
-			//border-radius: 25px;
+			/*border-radius: 25px;*/
 		}
 			li:hover {
 				color: white;
