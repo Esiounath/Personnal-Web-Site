@@ -284,15 +284,21 @@ body{
 	box-sizing: border-box;
 
 }
-.logo{
-	height: 12em;
-	width: 12em;
-	border-radius: 70% 70%;
-	margin-left: 30% ;
-	animation: fade 2s;
-	transition: 3s all;
+		.logo {
 	object-fit: cover;
-}
+	position: relative;
+	margin-bottom: 100%;
+	margin-left: 10% ;
+        width: 15em;
+        height: 15em;
+        box-shadow: 16px 14px 20px #0000008c;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .logo::before{
         content: "";
         background-image: conic-gradient(
@@ -327,9 +333,10 @@ body{
             transform: rotate(0deg);
         }
         100%{
-            transform: rotate(-360deg);
+            transform: rotate(360deg);
         }
     }
+}
 .container img{
 	max-width: 100%;
 }
